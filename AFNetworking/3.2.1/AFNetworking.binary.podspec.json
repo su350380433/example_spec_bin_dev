@@ -1,0 +1,24 @@
+{
+  "name": "AFNetworking",
+  "version": "3.2.1",
+  "license": "MIT",
+  "summary": "A delightful iOS and OS X networking framework.",
+  "homepage": "https://github.com/AFNetworking/AFNetworking",
+  "social_media_url": "https://twitter.com/AFNetworking",
+  "authors": {
+    "Mattt Thompson": "m@mattt.me"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/AFNetworking/3.2.1/zip",
+    "type": "zip"
+  },
+  "requires_arc": true,
+  "public_header_files": "bin_AFNetworking_3.2.1/Headers/*.h",
+  "source_files": "bin_AFNetworking_3.2.1/Headers/*",
+  "prefix_header_contents": "#ifndef TARGET_OS_IOS\n  #define TARGET_OS_IOS TARGET_OS_IPHONE\n#endif\n\n#ifndef TARGET_OS_WATCH\n  #define TARGET_OS_WATCH 0\n#endif\n\n#ifndef TARGET_OS_TV\n  #define TARGET_OS_TV 0\n#endif",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "vendored_libraries": "bin_AFNetworking_3.2.1/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
