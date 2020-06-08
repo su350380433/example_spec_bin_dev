@@ -1,0 +1,22 @@
+{
+  "name": "FMDB",
+  "version": "2.7.5",
+  "summary": "A Cocoa / Objective-C wrapper around SQLite.",
+  "homepage": "https://github.com/ccgus/fmdb",
+  "license": "MIT",
+  "authors": {
+    "August Mueller": "gus@flyingmeat.com"
+  },
+  "source": {
+    "http": "http://192.168.50.150:20480/frameworks/FMDB/2.7.5/zip",
+    "type": "zip"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": null
+  },
+  "source_files": "bin_FMDB_2.7.5/Headers/*",
+  "public_header_files": "bin_FMDB_2.7.5/Headers/*.h",
+  "vendored_libraries": "bin_FMDB_2.7.5/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @slj    」"
+}
